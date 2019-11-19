@@ -9,7 +9,7 @@ Required libraries:
 * numpy
 * matplotlib
 
-RulerCompassAnimations.py is a library to use Matplotlib to create ruler-and-compass constructions. It includes basic constructions such as perpendicualar bisector, and helper functions such as calculating distances between points.
+RulerCompassAnimations.py is a library to use Matplotlib to create ruler-and-compass constructions. It includes basic constructions such as perpendicular bisector, and helper functions such as calculating distances between points.
 
 SquarePolygons.py is a library to use RulerCompassAnimations to construct a square with the same area as a given polygon.
 
