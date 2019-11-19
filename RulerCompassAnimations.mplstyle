@@ -1,0 +1,73 @@
+# To check more avaialble options see:
+# https://matplotlib.org/tutorials/introductory/customizing.html
+
+text.color : (0.2,0.2,0.2)
+
+#Colour-blind friendly palette
+# hex      Normalised RGB    colour
+# #d55e00 (0.84,0.37,0)     (orange)
+# #cc79a7 (0.8,0.47,0.65)   (pink)
+# #0072b2 (0,0.45,0.7)      (blue)
+# #f0e442 (0.94,0.89,0.26)  (yellow)
+# #009e73 (0,0.62,0.45)     (green)
+
+# AXES
+axes.titlesize : 16
+axes.labelsize : 14
+axes.edgecolor : (0.1,0.1,0.1) #Normalized RGB colours (from 0 to 1 instead of 0 to 255)
+axes.labelcolor : (0.1,0.1,0.1)
+axes.linewidth : 1
+axes.spines.top : False
+axes.spines.right : False
+axes.spines.bottom : False
+axes.spines.left : False
+
+# GRID
+axes.grid : False
+grid.alpha : 0.7
+grid.linestyle : --
+grid.linewidth : 0.6
+
+
+# LINES
+#axes.prop_cycle : cycler('color', ['0072B2', '009E73', 'D55E00', 'CC79A7', 'F0E442', '56B4E9', '000000']) #hex colours
+axes.prop_cycle : cycler('color', ['000000']) #hex colours
+lines.linewidth : 0.5
+lines.linestyle : --
+lines.markeredgewidth : 0.0
+
+# SCATTER PLOT
+scatter.marker : .
+
+# TICKS
+xtick.labelsize : 13
+xtick.color : (0.2,0.2,0.2)
+xtick.direction : in
+xtick.top            : False  ## draw ticks on the top side
+xtick.bottom         : False   ## draw ticks on the bottom side
+xtick.labeltop       : False  ## draw label on the top
+xtick.labelbottom    : False  ## draw label on the bottom
+ytick.labelsize : 13
+ytick.color : (0.2,0.2,0.2)
+ytick.direction : in
+ytick.left           : False   ## draw ticks on the left side
+ytick.right          : False  ## draw ticks on the right side
+ytick.labelleft      : False   ## draw tick labels on the left side
+ytick.labelright     : False  ## draw tick labels on the right side
+
+# FIGURE OUTPUT 
+figure.figsize  : 10.666, 6
+figure.dpi : 150
+savefig.dpi : 200
+figure.frameon : False
+
+#### PATCHES
+## Patches are graphical objects that fill 2D space, like polygons or
+## circles.  See
+## http://matplotlib.org/api/artist_api.html#module-matplotlib.patches
+## information on patch properties
+patch.linewidth        : 0.5        ## edge width in points.
+#patch.facecolor        : C0
+patch.edgecolor        : black   ## if forced, or patch is not filled
+patch.force_edgecolor  : True   ## True to always use edgecolor
+#patch.antialiased      : True    ## render patches in antialiased (no jaggies)
