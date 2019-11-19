@@ -9,10 +9,10 @@ Required libraries:
 * numpy
 * matplotlib
 
-RulerCompassAnimations.py is a library to use Matplotlib to create ruler-and-compass constructions. It includes basic constructions such as perpendicular bisector, and helper functions such as calculating distances between points.
+Main.py shows how to use the SquarePolygons library. Run this file as-is to see an animation of construction of a square with the same area as a given rectangle, or change the code as indicated in the comments to see construction of a square with the same area as a given polygon. It probably only works for convex polygons.
 
 SquarePolygons.py is a library to use RulerCompassAnimations to construct a square with the same area as a given polygon.
 
-Main.py shows how to use the SquarePolygons library.
+RulerCompassAnimations.py is a library to use Matplotlib to create ruler-and-compass constructions. It includes basic constructions such as perpendicular bisector, and helper functions such as calculating distances between points.
 
 RulerCompassAnimations.mplstyle defines Matplotlib styles to use.
