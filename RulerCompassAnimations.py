@@ -1,7 +1,7 @@
 """
 RulerCompassAnimations
 Library to use Matplotlib to create ruler-and-compass constructions
-Inculdes basic constructions such as perpendicualar bisector, and helper
+Includes basic constructions such as perpendicualar bisector, and helper
 functions such as calculating distances between points
 
 author: Sam Hartburn
